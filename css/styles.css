@@ -1,0 +1,154 @@
+.dropdown-menu{
+  background-color: #222;
+  border-color: #080808;
+  color: #9d9d9d;
+}
+.dropdown-menu>li>a{
+  color: #9d9d9d;
+}
+.dropdown-menu> li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.titulo1{
+  margin-bottom: 40px;
+}
+
+
+.imgPortada{
+  width: 40%;
+  margin: 0 auto;
+}
+body{
+  /*background:#5AB1BB;*/
+  background: #090A11;
+  color: #fff;
+  /*background: #233D4D;*/
+  /*background: #0C1615;*/
+  /*background: #140811;*/
+  /*background: #09110C;*/
+
+}
+#example{
+  color: #000;
+}
+#example thead{
+  color: #fff;
+}
+
+#example_info{
+  color:#fff;
+}
+.dataTables_length label{
+  color:#fff;
+}
+.dataTables_length select{
+  color: #000;
+}
+#example_filter{
+  color: #fff;
+}
+#example_filter input{
+  color: #000;
+}
+.form-control{
+  /*background: #E0F7FA;*/
+  /*background: #383961;*/
+  /*color: #fff;*/
+}
+
+#footerWrapper{
+  background: #000;
+}
+
+.socialNetwork{
+ text-decoration: none;
+ list-style: none;
+}
+.socialNetwork li{
+  display:inline-block;
+  margin-left: 20px;
+}
+
+.formAgregar,.formModificar{
+  width: 50%;
+  margin: 0 auto;
+}
+.control-label{
+  text-align: left;
+}
+.agregar1{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.btn-primary{
+  background: #0C7C59;
+}
+.btn-primary:hover{
+  background: #2da647;
+}
+.btn-default{
+  background: #CFD8DC;
+}
+.btn-default:hover{
+  background: #9eb1ae;
+}
+.cajaMensaje{
+  margin-top: 10px;
+}
+.alerta1{
+  display: none;
+}
+.alerta2{
+  display: none;
+}
+.container h1{
+  color: #C52184;
+
+}
+.contenido>.container{
+margin-bottom: 80px;
+}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  /*background-color: #f9f9f9;*/
+  background: #fff;
+
+}
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+  /*background-color: #f9f9f9;*/
+  background: #B9F18C;
+}
+.footer{
+
+    position: static;
+    bottom: 0px;
+
+}
+footer{
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+}
+#contenidoGrafica
+{
+  min-width: 310px;
+  max-width: 800px;
+  height:700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+#tablapdf{
+border-collapse: collapse;
+
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.bootstrap-dialog-message{
+  color:#000;
+}
